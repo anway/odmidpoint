@@ -1,0 +1,489 @@
+@font-face{
+    font-family:Calligraffiti;
+    src:url('Calligraffiti.ttf');
+}
+
+@font-face{
+    font-family:Journal;
+    src:url('Journal.ttf');
+}
+
+@font-face{
+    font-family:ColabThi;
+    src:url('ColabThi.otf');
+}
+
+#nav{
+text-align:center;
+}
+
+#nav ul{
+list-style-type:none;
+height:43px;
+}
+
+#nav ul li{
+float:left;
+background-color:black;
+text-align:center;
+padding-top:10px;
+margin-left:2px;
+margin-right:2px;
+}
+
+#nav ul li a{
+text-decoration:none;
+color:white;
+font-size:1.5em;
+font-family:Calligraffiti, Brush Script MT, Sans Serif;
+}
+
+#container, #container-portfolio{
+text-align:center;
+width:100%;
+margin:0 auto;
+}
+
+#container img{
+margin-top:5px;
+width:93%;
+height:85%;
+}
+    
+#first-about{
+background-color:#CCCCCC;
+padding-right:2px;
+margin:0 auto;
+text-align:center;
+padding:1.0em;
+}
+
+#second-about{
+background-color:white;
+margin:0 auto;
+padding:0.8em;
+text-align:left;
+}
+    
+.portfolio-unit{
+float:left;
+background-color:gray;
+padding: 0.5em;
+margin-top: 0.6em;
+margin-left: 0.9em;
+font-family:ColabThi, Sans Serif;
+font-size:0.8em;
+color:white;
+}
+    
+#first-resume{
+float:left;
+background-color:#CCCCCC;
+padding-right:2px;
+margin:0 auto;
+text-align:left;
+padding-left:1.5em;
+padding-right:1.5em;
+margin: 0.6em 3.0em 1.5em 0.6em;
+}
+
+#second-resume{
+background-color:#white;
+margin:0 auto;
+text-align:left;
+}
+
+#first-contact{
+background-color:#CCCCCC;
+padding-right:2px;
+text-align:left;
+padding-left:1.5em;
+padding-right:1.5em;
+margin:0.6em 3.0em 1.5em 0.6em;
+}
+
+#second-contact{
+background-color:#white;
+margin:0 auto;
+text-align:left;
+}
+
+#container-inner, #container-inner-resume{
+background-color:white;
+width:93%;
+height:85%;
+margin:0 auto;
+text-align:left;
+}
+
+#first-about-inner{
+background-color:black;
+width:77%;
+margin:0.5em auto 0 auto;
+padding:1.0em;
+}
+
+#container-inner-portfolio{
+background-color:white;
+width:91%;
+padding:0.8em;
+margin:0 auto;
+}
+
+#container-inner-portfolio:before,
+#container-inner-portfolio:after{
+content:" ";
+display:table;
+}
+
+#container-inner-portfolio:after{
+clear:both;
+}
+
+.portfolio-unit img{
+margin-bottom:2px;
+}
+
+#portfolio-top{
+width:100%;
+height:30%;
+background-color:white;
+padding:0;
+margin-bottom:1px;
+display:inline;
+}
+
+#grid-container{
+width:100%;
+height:60%;
+margin-top:1px;
+display:inline;
+}
+
+#form{
+border:2px solid black;
+padding:1.0em;
+width:90%;
+}
+
+#footer{
+font-family: Arial, Serif;
+font-size:10px;
+text-align:center;
+padding-top:3px;
+}
+
+h7{
+font-family:Journal, Brush Script MT, Sans Serif;
+font-size:4.5em;
+color:white;
+}
+
+h6{
+font-family:Journal, Brush Script MT, Sans Serif;
+font-size:4.0em;
+color:#333333;
+display:inline;
+}
+
+p{
+font-family:ColabThi, Sans Serif;
+font-size:1.5em;
+color:black;
+}
+
+p b{
+color:#999999;
+}
+
+/*laptops and up*/
+@media screen and (min-width:861px){
+
+#nav ul li{
+display:inline-block;
+width:19%;
+height:100%;
+}
+
+#first-about{
+float:left;
+width:30%;
+height:93%;
+}
+
+#second-about{
+float:right;
+width:63%;
+height:93%;
+}
+
+.portfolio-unit{
+height:50%;
+width:30%;
+}
+
+#first-resume{
+width:25%;
+}
+
+#second-resume{
+float:right;
+width:65%;
+}
+
+#first-contact{
+float:left;
+width:25%
+}
+
+#second-contact{
+float:left;
+width:60%
+}
+
+#first-about-inner img{
+width:95%;
+height:auto;
+}
+
+#footer{
+clear:both;
+}
+
+.portfolio-unit img{
+height:90%;
+width:auto;
+}
+
+#container-inner-resume{
+overflow:auto;
+}
+
+}
+
+/*About and Contact pages start to break at 860px*/
+@media screen and (min-width:761px) and (max-width:860px){
+
+#nav ul li{
+display:inline-block;
+width:19%;
+height:100%;
+background-color:red;
+}
+
+#first-about{
+display:table;
+width:90%;
+height:60%;
+}
+
+#second-about{
+display:table;
+width:90%;
+}
+
+.portfolio-unit{
+height:50%;
+width:30%;
+}
+
+#first-resume{
+width:25%;
+}
+
+#second-resume{
+float:right;
+width:65%;
+}
+
+#first-contact{
+float:left;
+width:25%
+}
+
+#second-contact{
+float:left;
+width:60%
+}
+
+#first-about-inner img{
+width:97%;
+height:60%;
+}
+
+#container{
+display:table;
+}
+
+#footer{
+display:table;
+margin:0 auto;
+}
+
+.portfolio-unit img{
+height:90%;
+width:90%;
+}
+
+#container-inner-resume{
+overflow:auto;
+}
+
+}
+
+/*Portfolio grid and contact start to break at 760px
+*/
+@media screen and (min-width:511px) and (max-width:760px){
+
+#nav ul li{
+display:inline-block;
+width:19%;
+height:100%;
+background-color:blue;
+}
+
+#first-about{
+display:table;
+width:90%;
+height:60%;
+}
+
+#second-about{
+display:table;
+width:90%;
+}
+
+.portfolio-unit{
+height:50%;
+width:45%;
+}
+
+#first-resume{
+margin:0 auto;
+text-align:center;
+padding:0.5em;
+width:100%;
+}
+
+#second-resume{
+margin:0.5em auto;
+width:100%;
+}
+
+#first-contact{
+margin:0 auto;
+text-align:center;
+padding:0.5em;
+width:90%;
+}
+
+#second-contact{
+margin:0.5em auto;
+width:90%;
+}
+
+#first-about-inner img{
+width:97%;
+height:60%;
+}
+
+#container{
+display:table;
+}
+
+#footer{
+display:table;
+margin:0 auto;
+}
+
+.portfolio-unit img{
+height:90%;
+width:90%;
+}
+
+#container-inner-resume{
+width:90%;
+}
+
+}
+
+/*Portfolio grid breaks for the final time at 510px 
+Might as well change the navbar layout before it breaks
+Might as well make the about image smaller
+*/
+@media screen and (min-width:0px) and (max-width:510px){
+
+#nav ul li{
+width:90%;
+height:100%;
+background-color:green;
+margin-bottom:2px;
+margin-left:0;
+margin-right:auto;
+}
+
+#first-about{
+display:table;
+width:90%;
+height:30%;
+}
+
+#second-about{
+display:table;
+width:90%;
+}
+
+.portfolio-unit{
+height:50%;
+width:90%;
+}
+
+#first-resume{
+margin:0 auto;
+text-align:center;
+padding:0.5em;
+width:100%;
+}
+
+#second-resume{
+margin:0.5em auto;
+width:100%;
+}
+
+#first-contact{
+margin:0 auto;
+text-align:center;
+padding:0.5em;
+width:90%;
+}
+
+#second-contact{
+margin:0.5em auto;
+width:90%;
+}
+
+#first-about-inner img{
+width:97%;
+height:30%;
+}
+
+#container{
+display:table;
+}
+
+#footer{
+display:table;
+margin:0 auto;
+}
+
+.portfolio-unit img{
+height:90%;
+width:90%;
+}
+
+#container-inner-resume{
+width:90%;
+}
+
+}
+
